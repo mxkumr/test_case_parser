@@ -1,16 +1,16 @@
 #!/usr/bin/env python3
 
-"""
-This is a module level docstring
-Total docstrings in this file: 2
-Total classes: 1
-Total functions: 3
-Total variables: 5
-Total comments: 4
-Total keywords used: 12 (def, class, if, else, return, for, in, import, from, as, with, pass)
-Total identifiers: 8
-Total literals: 6
-"""
+# """
+# This is a module level docstring
+# Total docstrings in this file: 2
+# Total classes: 1
+# Total functions: 3
+# Total variables: 5
+# Total comments: 8
+# Total keywords used: 12 (def, class, if, else, return, for, in, import, from, as, with, pass)
+# Total identifiers: 8
+# Total literals: 6
+# """
 
 # Importing required modules
 import math
