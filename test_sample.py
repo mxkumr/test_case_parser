@@ -1,56 +1,31 @@
-#!/usr/bin/env python3
+"""
+Total elements in this code:
+- Keywords: 6 (class, def, if, return, __main__, __init__)
+- Identifiers: 8 (MyClass, my_func, print, obj, var1, var2, local_var, self)
+- Literals: 3 (10, 20, 30)
+- Comments: 2
+- Variables: 4 (var1, var2, local_var, obj)
+- Classes: 1 (MyClass)
+- Functions: 2 (__init__, my_func)
+- Docstrings: 2 (module, class)
+"""
 
-# """
-# This is a module level docstring
-# Total docstrings in this file: 2
-# Total classes: 1
-# Total functions: 3
-# Total variables: 5
-# Total comments: 8
-# Total keywords used: 12 (def, class, if, else, return, for, in, import, from, as, with, pass)
-# Total identifiers: 8
-# Total literals: 6
-# """
+"""Module docstring."""
 
-# Importing required modules
-import math
-from typing import List, Dict
+class MyClass:  # Class
+    """Class docstring."""
 
-# Global variables
-CONSTANT_VALUE = 100  # A numeric literal
-message = "Hello, World!"  # A string literal
-numbers = [1, 2, 3, 4, 5]  # A list literal
+    def __init__(self):  # Function 1
+        self.var1 = 10  # Variable 1 (instance)
+        self.var2 = 20  # Variable 2 (instance)
 
-class TestClass:
-    """
-    This is a class docstring
-    This class demonstrates various Python constructs
-    """
-    
-    def __init__(self, name: str):
-        self.name = name
-        self.value = 42
+def my_func():  # Function 2
+    local_var = 30  # Variable 3 (local)
+    return local_var
 
-    def calculate_something(self, x: int) -> float:
-        # This is a calculation function
-        result = math.sqrt(x) + CONSTANT_VALUE
-        return result
+# Single-line comment 1
+# Single-line comment 2
 
-    @staticmethod
-    def process_list(items: List[int]) -> Dict[str, int]:
-        output = {}
-        for i, item in enumerate(items):
-            if item % 2 == 0:
-                output[f"even_{i}"] = item
-            else:
-                output[f"odd_{i}"] = item
-        return output
-
-# Function outside class
-def main():
-    test_obj = TestClass("parser_test")
-    test_obj.calculate_something(16)
-    TestClass.process_list(numbers)
-
-if __name__ == "__main__":
-    main() 
+if __name__ == "__main__":  # Keywords (if, __main__)
+    obj = MyClass()  # Literals (10, 20)
+    print(my_func())  # Identifiers (print, my_func)
