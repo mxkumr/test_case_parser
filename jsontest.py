@@ -1,0 +1,1 @@
+"你可以使用Python的加法运算符来实现这个功能。以下是一个简单的示例：\n\n```python\n# 定义两个数\nnum1 = 5\nnum2 = 7\n\n# 使用加法运算符进行相加\nsum_num = num1 + num2\n\n# 输出结果\nprint(\"The sum of\", num1, \"and\", num2, \"is\", sum_num)\n```\n\n当你运行这段代码时，它将输出以下内容：\n\n```python\nThe sum of 5 and 7 is 12\n```"
